@@ -1,0 +1,20 @@
+.header, .conteudoInicial{
+   grid-column: 1/2;
+}
+
+.header{
+   padding: 30px 20px 0px 20px;
+}
+
+.header nav ul {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: #49FED8;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.header nav ul a:hover{
+   color: #abf7e8;
+}

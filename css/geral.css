@@ -1,0 +1,44 @@
+:root{
+   --corFundo00: #000000;
+}
+
+* {
+   padding: 0px;
+   margin: 0px;
+   list-style: none;
+}
+
+body{
+   background-color: var(--corFundo00);
+   color: white;
+   font-family: sans-serif;
+}
+
+img[src$='.png']{
+   max-width: 100%;
+}
+
+a{
+   color: inherit;
+   text-decoration: none;
+}
+
+.maxWidth{
+   max-width: 1280px;
+}
+
+.marginCenter{
+   margin: 0 auto;
+}
+
+
+
+.corFundo00{
+   background-color: var(--corFundo00);
+}
+
+.grid1{
+   display: grid;
+   grid-template-columns: 23fr 17fr;
+   grid-template-rows: repeat(3, auto);
+}

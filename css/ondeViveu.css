@@ -1,0 +1,58 @@
+.grid2{
+   display: grid;
+   grid-template-columns: 23fr 17fr;
+}
+
+.ondeViveuImagemTrex{
+   max-height: 600px;
+}
+
+.ondeViveuImagemTrex img[src='./img/TrexFundoSemMapa.png']{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: top;
+}
+
+.ondeViveuImagemTrex{
+   position: relative;
+}
+
+.ondeViveuImagemTrex img[src='./img/MapaSemTrex.png']{
+   position: absolute;
+   top: 25%;
+   right: 140px;
+}
+
+.padLeft60{
+   padding-left: 60px;
+   padding-right: 20px;
+}
+
+.ondeViveu h2{
+   font-size: 3.5rem;
+   text-transform: uppercase;
+   max-width: 16ch;
+   margin-bottom: 40px;
+}
+
+.ondeViveu p{
+   max-width: 40ch;
+   font-size: 1.25rem;
+   margin-bottom: 60px;
+}
+
+.ondeViveuDestaque{
+   background-color: #0D0D0D;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   align-self: end;
+}
+
+.ondeViveuDestaque ul li{
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   color: #727B8C;
+   font-size: 1rem;
+}

@@ -1,0 +1,74 @@
+.anatomia.grid1{
+   grid-template-columns: 23fr auto 17fr;
+}
+
+.anatomia{
+   padding: 60px 20px;
+}
+
+.anatomiaConteudo{
+   grid-column: 1/2;
+}
+
+.anatomiaConteudo h2{
+   font-size: 3.5rem;
+   text-transform: uppercase;
+   max-width: 20ch;
+   margin-bottom: 40px;
+}
+
+.trexRaioX{
+   margin-bottom: 20px;
+}
+
+.trexRaioXOpcoesTitulo{
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   margin-bottom: 12px;
+}
+
+.trexRaioXOpcoes{
+   font-size: 0.9rem;
+   display: flex;
+   gap: 12px;
+   margin-bottom: 20px;
+}
+
+.trexRaioXOpcoes li{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   border-radius: 8px;
+   background-color: #101010;
+   padding: 8px 10px;
+   cursor: pointer;
+}
+
+.trexRaioXAviso{
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   color: #727B8C;
+   max-width: 35ch;
+}
+
+.trexRaioXAviso img{
+   margin-top: 6px;
+}
+
+.anatomiaTexto{
+   grid-column: 3/4;
+   font-size: 1.25rem;
+}
+
+.anatomiaTexto p{
+   margin-top: 51px;
+}
+
+.separadorConteudos{
+   margin-top: 51px;
+   height: 92%;
+   width: 1px;
+   background-color: #363636;
+}
